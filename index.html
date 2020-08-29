@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <title>TODO LIST</title>
+  </head>
+  <body>
+    <h1 class="todos__title">Todos Lists</h1>
+    <section class="todoapp">
+      <header class="header todos">
+        <button class="todos__select-all">></button>
+        <input class="new__todo" placeholder="What needs to be done?">
+      </header>
+      
+      <section class="main">
+        <ul class="todo__lists">
+        </ul>
+      </section>
+      <footer class="footer feature">
+        <div class="feature__items">
+          <div>
+            <button class="feature__item-left">0 items left</button>
+          </div>
+          <div class="feature__filters">
+            <button class="feature__item-all" data-filter="all">All</button>
+            <button class="feature__item-active" data-filter="active">Active</button>
+            <button class="feature__item-completed" data-filter="completed">Completed</button>
+          </div> 
+          <div>
+            <button class="feature__item-clear">Clear completed</button>
+          </div>
+        </div>
+      </footer>
+  </section>
+  <script src="./main.js"></script>
+  </body>
+</html>
